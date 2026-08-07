@@ -1,31 +1,42 @@
 # VenturaVision
 
-[![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+![Status](https://img.shields.io/badge/status-incubation-orange)
+![Python](https://img.shields.io/badge/python-3.11%2B-blue)
+![License](https://img.shields.io/github/license/venturalabs-ai/ventura-vision)
 
-**Plataforma de visão computacional** para análise de imagens e vídeos: objetos, OCR e legendas automáticas.
+**Laboratório de visão computacional para análise de imagens e vídeos, OCR e geração de legendas.**
 
-> Parte do ecossistema **Ventura** · [Ventura Studio](https://github.com/chamseddinehiddoud/ventura-studio)
+> Ecossistema Ventura · [Ventura Studio](https://github.com/venturalabs-ai/ventura-studio)
 
-## Funcionalidades
+## Maturidade
 
-- Detecção de objetos (YOLOv8 / similares)
-- OCR
-- Geração de legendas
-- Pipeline otimizado para edge (planejado)
+**Incubation / experimental.** Ainda não deve ser tratado como plataforma pronta para produção.
 
-## Stack planejada
+## Escopo planejado
 
-Python · PyTorch · OpenCV · FastAPI · Docker
+- detecção de objetos;
+- OCR;
+- geração de legendas;
+- pipelines para edge;
+- API para processamento de mídia.
 
-## Uso ético
+## Stack alvo
 
-Este projeto é destinado a aplicações legítimas (acessibilidade, inspeção industrial, pesquisa). Uso para vigilância ilegal ou abuso não é suportado.
+`Python` · `PyTorch` · `OpenCV` · `FastAPI` · `Docker`
 
-## Status
+## Uso responsável
 
-🔷 Scaffold inicial (2026-08-07).
+O foco é acessibilidade, inspeção industrial, pesquisa e automação legítima. Vigilância ilegal, identificação abusiva ou violação de privacidade não fazem parte do escopo.
+
+## Critérios para Beta
+
+- pipeline funcional com exemplos reproduzíveis;
+- métricas de qualidade documentadas;
+- testes automatizados;
+- CI bloqueante;
+- requisitos de hardware e limitações;
+- release inicial.
 
 ## Licença
 
-MIT
+Consulte [LICENSE](LICENSE).
