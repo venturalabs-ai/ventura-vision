@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "runtime_standard": "venturalabs-ai/ventura.build/AGENT_RUNTIME_STANDARD.md",
+  "max_active_connectors_per_skill": 6,
+  "defaults": {"mode":"read-only","human_approval_for":["external-write","publish","delete","secrets","biometric-processing"]},
+  "catalog": {
+    "github": {"trust":"official","purpose":"repository code issues PRs Actions and provenance"},
+    "openai": {"trust":"native","purpose":"vision-language analysis embeddings and structured outputs"},
+    "google-ai": {"trust":"native","purpose":"multimodal vision analysis and fallback model routing"},
+    "huggingface": {"trust":"official","purpose":"vision models datasets benchmarks and evaluation assets"},
+    "opencv": {"trust":"local","purpose":"deterministic image preprocessing geometry and computer vision tests"},
+    "tesseract": {"trust":"local","purpose":"local OCR baseline and regression comparison"},
+    "postgresql": {"trust":"native","purpose":"asset metadata evaluation results and durable state"},
+    "qdrant": {"trust":"native","purpose":"image and text embedding retrieval"},
+    "sentry": {"trust":"official","purpose":"errors traces releases and latency diagnostics"},
+    "grafana": {"trust":"official","purpose":"quality latency throughput and infrastructure metrics"},
+    "docker": {"trust":"official","purpose":"reproducible computer vision runtimes"},
+    "filesystem": {"trust":"local","purpose":"bounded authorized media fixture and artifact access"}
+  },
+  "routes": {
+    "product-scope": ["github","filesystem","huggingface","openai","google-ai","grafana"],
+    "stack-bootstrap": ["github","filesystem","docker","opencv","tesseract","sentry"],
+    "demo-script": ["filesystem","opencv","tesseract","openai","huggingface","github"],
+    "first-issue-pack": ["github","sentry","grafana","filesystem","docker","huggingface"]
+  }
+}
