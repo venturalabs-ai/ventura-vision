@@ -1,42 +1,38 @@
-# VenturaVision
+# 📄 README Template Padrão
 
-![Status](https://img.shields.io/badge/status-incubation-orange)
-![Python](https://img.shields.io/badge/python-3.11%2B-blue)
-![License](https://img.shields.io/github/license/venturalabs-ai/ventura-vision)
+## Preencher conforme o repositório
 
-**Laboratório de visão computacional para análise de imagens e vídeos, OCR e geração de legendas.**
+# Nome do Repositório
 
-> Ecossistema Ventura · [Ventura Studio](https://github.com/venturalabs-ai/ventura-studio)
+> **Descrição curta do que este repositório faz**
 
-## Maturidade
+## 🛠 Tecnologias
 
-**Incubation / experimental.** Ainda não deve ser tratado como plataforma pronta para produção.
+- Linguagem: [Python/TypeScript/Etc.]
+- Framework: [Nome do framework]
+- Ferramentas: [Ferramentas usadas]
 
-## Escopo planejado
+## 🚀 Quick Start
 
-- detecção de objetos;
-- OCR;
-- geração de legendas;
-- pipelines para edge;
-- API para processamento de mídia.
+```bash
+# Instruções de setup
+git clone https://github.com/venturalabs-ai/[repo-name].git
+cd [repo-name]
+# Comandos de instalação
+```
 
-## Stack alvo
+## 📦 Licença
 
-`Python` · `PyTorch` · `OpenCV` · `FastAPI` · `Docker`
+[MIT License](LICENSE)
 
-## Uso responsável
+## 🤝 Como Contribuir
 
-O foco é acessibilidade, inspeção industrial, pesquisa e automação legítima. Vigilância ilegal, identificação abusiva ou violação de privacidade não fazem parte do escopo.
+1. Fork o repositório
+2. Crie uma branch (`git checkout -b feature/nova-funcionalidade`)
+3. Commit suas mudanças (`git commit -m 'feat: adicionar nova funcionalidade'`)
+4. Push para a branch (`git push origin feature/nova-funcionalidade`)
+5. Abra um Pull Request
 
-## Critérios para Beta
+## 📞 Contato
 
-- pipeline funcional com exemplos reproduzíveis;
-- métricas de qualidade documentadas;
-- testes automatizados;
-- CI bloqueante;
-- requisitos de hardware e limitações;
-- release inicial.
-
-## Licença
-
-Consulte [LICENSE](LICENSE).
+- GitHub: [@venturalabs-ai](https://github.com/venturalabs-ai)
